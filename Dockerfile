@@ -22,7 +22,7 @@ ENV HOME /root
 # Caution: If the following two environment variables are set to a branch (i.e. master),
 # docker builds will need to be done with --no-cache. Failing to do so will cause  docker 
 # to not notice the latest commits pushed to said branch, and instead use a stale version of the branch.
-ENV MESOS_BRANCH 0.26.0
+ENV MESOS_BRANCH master
 ENV NETMODULES_BRANCH master
 
 ###############
